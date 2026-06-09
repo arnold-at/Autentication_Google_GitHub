@@ -1,8 +1,10 @@
 import { getServerSession } from "next-auth";
 import Link from "next/link";
+import { authOptions } from "@/lib/auth";
 
 export default async function Home() {
-  const session = await getServerSession();
+  const session = await getServerSession(authOptions);
+;
 
   return (
     <main className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -51,4 +53,6 @@ export default async function Home() {
       </div>
     </main>
   );
+
+  
 }
