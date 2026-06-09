@@ -1,0 +1,10 @@
+[
+  {
+    "id": "2b106c41-880a-4a25-8c9f-d948398db4fd",
+    "name": "Arnold Alva",
+    "email": "arnold.alva.torres@gmail.com",
+    "password": "$2b$12$LuwUvay8zCrqjQ7qeJYJSeLWemslQLmnG6nEVtvaJVN2A5uvrcP.q",
+    "loginAttempts": 0,
+    "lockedUntil": null
+  }
+]
